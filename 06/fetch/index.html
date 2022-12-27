@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Fetch</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #2B2B2B;
+            color: white;
+        }
+
+        label,
+        input {
+            display: block;
+        }
+    </style>
+
+    <form id="buscarCep">
+        <label for="cep">CEP:</label>
+        <input type="text" name="cep" id="cep">
+        <button id="btn-cep">Buscar CEP</button>
+    </form>
+    <div class="resultado-cep"></div>
+
+    <div>
+        <h2>Preço BTC</h2>
+        <p class="btc"></p>
+    </div>
+
+    <div>
+        <p class="piada"></p>
+        <button class="proxima">Próxima</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
